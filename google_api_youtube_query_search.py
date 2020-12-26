@@ -7,7 +7,7 @@ import os
 query = 'bbc hard talk'
 no_of_pages = 1 #each page gives 50 search results
 
-DEVELOPER_KEY = 'AIzaSyB6HfRziDr5t8BHh7dGuQguWp0kOzVWm00'
+DEVELOPER_KEY = ''
 youtube = build("youtube", "v3",developerKey=DEVELOPER_KEY)
 
 def extract_info(query, number_of_pages):    
