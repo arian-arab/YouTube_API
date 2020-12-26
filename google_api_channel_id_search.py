@@ -6,7 +6,7 @@ import os
 channel_id = 'UCN0VXYoN2ZdC7s8OFC_zHCg'
 
 
-DEVELOPER_KEY = 'AIzaSyB6HfRziDr5t8BHh7dGuQguWp0kOzVWm00'
+DEVELOPER_KEY = ''
 youtube = build("youtube", "v3",developerKey=DEVELOPER_KEY)
 
 token = None
